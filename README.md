@@ -1,51 +1,64 @@
-# Kandangsepatu
-Toko sepatu grosir dan eceran terpercaya 
+# Kandangsepatu Website
 
-## 🏪 Tentang Kami
+Toko sepatu grosir dan eceran terpercaya dengan website resmi yang responsif dan modern.
 
-**Kandangsepatu** adalah toko sepatu terpercaya yang melayani kebutuhan footwear Anda dengan kualitas terbaik. Kami berdedikasi untuk menyediakan sepatu berkualitas tinggi dengan harga yang kompetitif untuk pelanggan grosir maupun eceran.
+## 🌐 Akses Website
 
-### Visi & Misi
-- **Visi**: Menjadi pusat perbelanjaan sepatu terpercaya dan terkemuka di Indonesia
-- **Misi**: Menyediakan produk sepatu berkualitas dengan layanan pelanggan terbaik dan harga yang terjangkau
+**Website aktif di:** https://kidulls.github.io/Kandangsepatu/
 
-### Mengapa Memilih Kami?
-✅ **Kualitas Terjamin** - Semua produk dipilih dengan teliti untuk memastikan kualitas terbaik  
-✅ **Harga Kompetitif** - Menawarkan harga grosir dan eceran yang terjangkau  
-✅ **Koleksi Lengkap** - Berbagai pilihan gaya dan ukuran untuk semua kebutuhan  
-✅ **Layanan Profesional** - Tim yang siap membantu Anda menemukan sepatu yang tepat  
-✅ **Terpercaya** - Melayani ribuan pelanggan setia dengan kepuasan tinggi  
+## 📋 Halaman yang Tersedia
 
-### Produk Kami
-Kami menyediakan berbagai jenis sepatu:
-- Sepatu Casual
-- Sepatu Formal/Pantofel
-- Sepatu Olahraga
-- Sepatu Anak-anak
-- Sepatu Wanita
-- Sepatu Pria
+- **Home** - Halaman utama dengan fitur dan kategori produk
+- **Produk** - Katalog lengkap dengan filter kategori
+- **Tentang Kami** - Informasi perusahaan, visi, misi, dan layanan
+- **Kontak** - Formulir kontak dan informasi lengkap
 
-### Layanan Kami
-- **Penjualan Grosir** - Harga spesial untuk pembelian dalam jumlah besar
-- **Penjualan Eceran** - Melayani pembelian satuan dengan kualitas yang sama
-- **Konsultasi Gratis** - Tim ahli kami siap membantu memilih sepatu yang tepat
-- **Pengiriman** - Layanan pengiriman ke seluruh Indonesia
+## 🏪 Informasi Toko
 
----
-
-## 📞 Hubungi Kami
-
-- **Whatsapp**: [https://wa.me/628987686501](https://wa.me/628987686501)
-- **Email**: info@kandangsepatu.com
+- **Nama Toko**: Kandangsepatu
 - **Alamat**: Pasar Kotabumi, Tangerang
 - **Jam Operasional**: 08:00 - 18:00 WIB
+- **WhatsApp**: +62 898 7686 501
+- **Instagram**: @revscoll
+- **Facebook**: Revscoll
+
+## 🎨 Fitur Website
+
+✅ Desain responsif (mobile, tablet, desktop)  
+✅ Filter produk interaktif  
+✅ Formulir kontak terintegrasi WhatsApp  
+✅ Animasi smooth transitions  
+✅ Gradient modern dan warna cerah  
+✅ Font Awesome icons  
+✅ Footer dengan informasi lengkap  
+
+## 📁 Struktur File
+
+```
+Kandangsepatu/
+├── index.html          # Halaman utama
+├── produk.html         # Halaman produk
+├── tentang.html        # Halaman tentang kami
+├── kontak.html         # Halaman kontak
+├── css/
+│   └── style.css       # Styling website
+├── js/
+│   └── script.js       # JavaScript interaktif
+└── README.md           # File ini
+```
+
+## 🚀 Teknologi yang Digunakan
+
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript ES6
+- Font Awesome 6.0
+- Responsive Design
+
+## 📝 Catatan
+
+Website ini dibuat untuk Kandangsepatu dengan fokus pada user experience yang baik dan desain yang menarik. Semua halaman dioptimalkan untuk kecepatan dan aksesibilitas.
 
 ---
 
-## 🌐 Ikuti Kami
-- **Instagram**: [@revscoll](https://instagram.com/revscoll)
-- **Facebook**: [Revscoll](https://facebook.com/revscoll)
-
----
-
-*Terima kasih telah mempercayai Kandangsepatu sebagai pilihan sepatu Anda!*
+**&copy; 2024 Kandangsepatu. Semua hak dilindungi.**
