@@ -3,170 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produk - Kandangsepatu</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Speedcat OG Premium Black in White - Revscoll Store</title>
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --accent: #e74c3c;
+            --bg: #f9f9fb;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+            --border: #e2e8f0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+        .product-gallery {
+            background: #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            position: relative;
+            min-height: 350px;
+        }
+        .badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--accent);
+            color: white;
+            padding: 6px 14px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+        .image-placeholder {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 1.1rem;
+            border: 2px dashed #cbd5e1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .product-details {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .brand-tag {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .product-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        .product-price {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        .product-desc {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+        .specs-section {
+            margin-bottom: 20px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 15px 0;
+        }
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .spec-label {
+            font-weight: 600;
+            color: var(--primary);
+        }
+        .spec-value {
+            color: var(--text-light);
+            text-align: right;
+        }
+        .features-list {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        .features-list li {
+            margin-bottom: 5px;
+        }
+        .promo-box {
+            background: #fff5f5;
+            border-left: 4px solid var(--accent);
+            padding: 12px 15px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 25px;
+            font-size: 0.88rem;
+        }
+        .promo-box h4 {
+            color: var(--accent);
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+        .promo-box ul {
+            padding-left: 15px;
+            margin: 0;
+        }
+        .btn-buy {
+            display: block;
+            width: 100%;
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background 0.2s ease;
+        }
+        .btn-buy:hover {
+            background-color: #333;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <h1>🏪 Kandangsepatu</h1>
-            </div>
-            <ul class="navbar-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="produk.html" class="active">Produk</a></li>
-                <li><a href="tentang.html">Tentang Kami</a></li>
-                <li><a href="kontak.html">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Produk Kami</h1>
-            <p>Koleksi lengkap sepatu berkualitas tinggi</p>
-        </div>
-    </section>
-
-    <!-- Produk Section -->
-    <section class="products">
-        <div class="container">
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">Semua</button>
-                <button class="filter-btn" data-filter="casual">Casual</button>
-                <button class="filter-btn" data-filter="formal">Formal</button>
-                <button class="filter-btn" data-filter="olahraga">Olahraga</button>
-                <button class="filter-btn" data-filter="anak">Anak-anak</button>
-            </div>
-
-            <div class="products-grid">
-                <!-- Sepatu Casual -->
-                <div class="product-card" data-category="casual">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Casual+1" alt="Sepatu Casual">
-                    </div>
-                    <h3>Sepatu Casual Pria</h3>
-                    <p class="category-tag">Casual</p>
-                    <p class="price">Rp 150.000 - Rp 200.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <div class="product-card" data-category="casual">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Casual+2" alt="Sepatu Casual">
-                    </div>
-                    <h3>Sepatu Casual Wanita</h3>
-                    <p class="category-tag">Casual</p>
-                    <p class="price">Rp 120.000 - Rp 180.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <!-- Sepatu Formal -->
-                <div class="product-card" data-category="formal">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Formal+1" alt="Sepatu Formal">
-                    </div>
-                    <h3>Sepatu Pantofel Pria</h3>
-                    <p class="category-tag">Formal</p>
-                    <p class="price">Rp 200.000 - Rp 300.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <div class="product-card" data-category="formal">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Formal+2" alt="Sepatu Formal">
-                    </div>
-                    <h3>Sepatu Formal Wanita</h3>
-                    <p class="category-tag">Formal</p>
-                    <p class="price">Rp 180.000 - Rp 280.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <!-- Sepatu Olahraga -->
-                <div class="product-card" data-category="olahraga">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Olahraga+1" alt="Sepatu Olahraga">
-                    </div>
-                    <h3>Sepatu Running</h3>
-                    <p class="category-tag">Olahraga</p>
-                    <p class="price">Rp 250.000 - Rp 350.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <div class="product-card" data-category="olahraga">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Olahraga+2" alt="Sepatu Olahraga">
-                    </div>
-                    <h3>Sepatu Basketball</h3>
-                    <p class="category-tag">Olahraga</p>
-                    <p class="price">Rp 300.000 - Rp 400.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <!-- Sepatu Anak-anak -->
-                <div class="product-card" data-category="anak">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Anak+1" alt="Sepatu Anak">
-                    </div>
-                    <h3>Sepatu Anak Casual</h3>
-                    <p class="category-tag">Anak-anak</p>
-                    <p class="price">Rp 80.000 - Rp 120.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
-
-                <div class="product-card" data-category="anak">
-                    <div class="product-image">
-                        <img src="https://via.placeholder.com/250x250?text=Sepatu+Anak+2" alt="Sepatu Anak">
-                    </div>
-                    <h3>Sepatu Anak Olahraga</h3>
-                    <p class="category-tag">Anak-anak</p>
-                    <p class="price">Rp 100.000 - Rp 150.000</p>
-                    <button class="btn btn-small">Detail</button>
-                </div>
+    <div class="container">
+        <!-- Galeri / Foto Produk -->
+        <div class="product-gallery">
+            <div class="badge">In Stock</div>
+            <div class="image-placeholder">
+                <span>[ Foto Produk Utama ]</span>
+                <small style="margin-top: 5px; font-size: 0.8rem;">Speedcat OG Premium Black White</small>
             </div>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Kandangsepatu</h3>
-                    <p>Toko sepatu grosir dan eceran terpercaya</p>
+        <!-- Informasi Detail Produk -->
+        <div class="product-details">
+            <div>
+                <div class="brand-tag">Revscoll Store</div>
+                <h1 class="product-title">Speedcat OG Premium Black in White</h1>
+                <div class="product-price">Rp 162.000</div>
+                <p class="product-desc">
+                    Puma Speedcat OG Black White hadir dengan siluet ramping yang terinspirasi dari dunia motorsport. Sepatu ini menggunakan material suede premium berwarna hitam dengan aksen formstrip putih yang ikonik di sisi samping, memberikan kesan elegan sekaligus sporty.
+                </p>
+
+                <div class="specs-section">
+                    <div class="spec-item">
+                        <span class="spec-label">Material</span>
+                        <span class="spec-value">Suede berkualitas tinggi</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Warna</span>
+                        <span class="spec-value">Hitam Putih (Pilihan lain: Merah, Biru Muda, Pink Soft)</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Ukuran Tersedia</span>
+                        <span class="spec-value">36 - 43</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Gaya</span>
+                        <span class="spec-value">Sporty / Trendy</span>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Menu</h3>
+
+                <ul class="features-list">
+                    <li>Siluet rendah (low-top) terinspirasi gaya F1.</li>
+                    <li>Tulisan ‘PUMA’ berwarna emas metalik dan logo Jumping Cat.</li>
+                    <li>Outsole karet tipis (rubber sol) untuk traksi maksimal.</li>
+                </ul>
+
+                <div class="promo-box">
+                    <h4>Promo Spesial & Keuntungan:</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produk.html">Produk</a></li>
-                        <li><a href="tentang.html">Tentang Kami</a></li>
-                        <li><a href="kontak.html">Kontak</a></li>
+                        <li>Gratis Ongkir (Wilayah Sejabodetabek)</li>
+                        <li>Layanan COD (Bayar di Tempat) tersedia</li>
+                        <li>Cashback Rp 15k via QRIS</li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h3>Hubungi Kami</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Pasar Kotabumi, Tangerang</p>
-                    <p><i class="fas fa-clock"></i> 08:00 - 18:00 WIB</p>
-                    <p><i class="fas fa-whatsapp"></i> <a href="https://wa.me/628987686501">+62 898 7686 501</a></p>
-                </div>
-                <div class="footer-section">
-                    <h3>Media Sosial</h3>
-                    <div class="social-links">
-                        <a href="https://instagram.com/revscoll" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com/revscoll" target="_blank"><i class="fab fa-facebook"></i></a>
-                    </div>
-                </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Kandangsepatu. Semua hak dilindungi.</p>
-            </div>
-        </div>
-    </footer>
 
-    <script src="js/script.js"></script>
+            <a href="https://wa.me/" class="btn-buy" target="_blank">Pesan / Beli Sekarang</a>
+        </div>
+    </div>
+
 </body>
 </html>
